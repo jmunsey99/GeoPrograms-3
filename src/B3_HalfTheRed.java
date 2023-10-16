@@ -10,6 +10,7 @@ public class B3_HalfTheRed extends World {
         System.out.println(plane.howMuchRed());
 
         for (int row = 1; row < 800; row = row + 1) {
+            //change
             for (int col = 1; col < 1000; col++) {
                 plane.teleport(col, row);
 
