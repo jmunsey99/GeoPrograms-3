@@ -26,7 +26,6 @@ public class B3_HalfTheRed extends World {
 
 
                 }
-
                 if (col<129){
 
                     plane.setPixelColor(col/4, green/4, row/4);
@@ -42,13 +41,123 @@ public class B3_HalfTheRed extends World {
 
                 if(row>739){
                     plane.setPixelColor(col/4,green/4,row/4);
+
+
+
+
                 }
+
 
     //            plane.teleport(col, 800 - row);
              //   plane.setPixelColor(col/4, green/2, row/4);
             }
+
+
+
+
         }
+        plane.teleport(129,66);
+        plane.isTrail = true;
+        plane.pausetime = 0;
+        plane.setColor(0,0,0);
+        plane.trailWidth = 20;
+        plane.startingAngle(0);
+        plane.move(100);
+        plane.turn(270);
+        plane.move(120);
+        plane.turn(330);
+        plane.move(200);
+        plane.turn(210);
+        plane.move(290);
+        plane.turn(270);
+        plane.move(90);
+        plane.turn(270);
+        plane.move(100);
+        plane.turn(330);
+        plane.move(155);
+        plane.turn(210);
+        plane.move(220);
+        plane.turn(270);
+        plane.move(70);
+        plane.turn(270);
+        plane.move(90);
+        plane.turn(325);
+        plane.move(90);
+        plane.turn(215);
+        plane.trailWidth = 30;
+        plane.move(150);
+        plane.turn(270);
+        plane.move(50);
+        plane.turn(270);
+        plane.move(80);
+        plane.teleport(180,120);
+        plane.trailWidth=30;
+        plane.startingAngle(90);
+        plane.move(100);
+        plane.teleport(209,129);
+        plane.move(65);
+        plane.teleport(203,452);
+        plane.trailWidth = 60;
+        plane.move(220);
+        plane.turn(270);
+        plane.move(75);
+        plane.teleport(161,674);
+        plane.startingAngle(270);
+        plane.move(220);
+        plane.turn(180);
+       plane.teleport(129,455);
+       plane.move(220);
+       plane.teleport(207,410);
+       plane.startingAngle(180);
+       plane.move(78);
+       plane.teleport(161,408);
+       plane.startingAngle(220);
+       plane.move(40);
+       plane.teleport(540,68);
+       plane.trailWidth = 130;
+       plane.startingAngle(90);
+       plane.move(335);
+       plane.teleport(492,68);
+       plane.trailWidth = 50;
+       plane.move(170);
+       plane.teleport(493,68);
+       plane.startingAngle(180);
+       plane.move(150);
+       plane.teleport(580,532);
+       plane.startingAngle(45);
+       plane.trailWidth = 40;
+       plane.move(70);
+       plane.teleport(607,519);
+       plane.startingAngle(45);
+       plane.move(35);
+       plane.teleport(658,532);
+       plane.startingAngle(270);
+      plane.trailWidth = 20;
+       plane.move(460);
+       plane.startingAngle(90);
+       plane.teleport(645,552);
+       plane.trailWidth = 33;
+       plane.move(150);
+       plane.teleport(516,669);
+       plane.trailWidth = 68;
+       plane.startingAngle(270);
+       plane.move(30);
+       plane.turn(50);
+       plane.move(10);
+       plane.teleport(537,632);
+       plane.trailWidth = 30;
+       plane.move(30);
+       plane.teleport(127,732);
+       plane.startingAngle(0);
+       plane.trailWidth=10;
+       plane.move(540);
+       plane.teleport(127,64);
+       plane.startingAngle(0);
+       plane.move(540);
+
+
     }
+
 }
 
 
